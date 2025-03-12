@@ -4,22 +4,22 @@ A fun, interactive web app where you try to identify Pokémon from their silhoue
 
 🌟 Features
 
-🔍 Random Pokémon silhouettes displayed for guessing.
+    🔍 Random Pokémon silhouettes displayed for guessing.
 
-📝 User input to type in your guess.
+    📝 User input to type in your guess.
 
-✅ Correct answer feedback to let you know if you got it right.
+    ✅ Correct answer feedback to let you know if you got it right.
 
-🏆 Score tracking to see how many Pokémon you can guess correctly.
+    🏆 Score tracking to see how many Pokémon you can guess correctly.
 
-📚 Pokedex-style UI for an authentic Pokémon experience.
+    📚 Pokedex-style UI for an authentic Pokémon experience.
 
 🛠️ Tech Stack
 
-HTML/CSS for layout and styling
+    HTML/CSS for layout and styling
 
-JavaScript for interactivity
+    JavaScript for interactivity
 
-CSV Data for Pokémon names
+    CSV Data for Pokémon names
 
-Gotta catch 'em all! 🎉
+<p>Gotta catch 'em all! 🎉</p>
