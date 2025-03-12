@@ -1,0 +1,205 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image:url("resource/image/background.png") ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+#mainTitle{
+    font-size: 5vh;
+}
+#pokemonImage , #guessButton,#pokemonInput,#nextPokemon{
+    display: none;
+}
+#pokedex{
+    position: relative;
+    background-color: rgb(178, 7, 7);
+    width: 35vh; 
+    height: 60vh; 
+    margin: 6vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+#display{
+    position: relative;
+    height: 30vh;
+    width: 30vh;
+    margin-top: 12vh ;
+    margin-bottom: 2.5vh;
+    background-color: aliceblue;
+    border: 2px black solid;
+    z-index: 1;
+}
+
+#pokemonImage{
+    position: relative;
+    bottom: 3vh;
+    height: 30vh;
+    width: 30vh;
+}
+#gameOver,#gameStart{
+    position: relative;
+    bottom: 4.5vh;
+    height: 30vh;
+    width: 30vh;
+}
+#gameStart{
+    position: relative;
+    bottom: 4.5vh;
+    height: 30vh;
+    width: 30vh;
+}
+
+#buttonContainer {
+    position: absolute; 
+    top: 26vh;
+    left: 5vh;
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+}
+
+#guessButton,
+#nextPokemon {
+    position: relative;
+    height: 3vh;
+    width: 10vh;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 1.75vh;
+    cursor: pointer;
+}
+#tryAgain{
+    position: relative;
+    height: 3vh;
+    width: 15vh;
+    top: 20vh;
+    left: 6.8vh;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 1.75vh;
+    cursor: pointer;
+    z-index: 10;
+}
+#scoreDisplay{
+    font-size: 3.2vh;
+    color: black;
+    font-weight: bold;
+
+}
+#heart{
+    position: relative;
+    width: 2.5vh;
+    left: 9.5vh;
+    top: 1vh;
+}
+#lives{
+    position: relative;
+    left: 14.5vh;
+    top: 0.6vh;
+    font-size: 2vh;
+}
+#pokeball{
+    height: 4.5vh;
+    position:absolute;
+    right: 1.5vh;
+    top: 5.6vh;
+}
+#blueCircle{
+    position:absolute;
+    background:radial-gradient(circle, #7ae0ff 20%, #095caa 80%);
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50px;
+    border: 4px black solid;
+    left: 2vh;
+    top: 2vh;
+    padding-top: 0.3vh;
+}
+#line {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    height: auto;
+}
+
+#command-center {
+    position: relative;
+    bottom: 1.5vh;
+    background-color: rgb(93, 92, 92);
+    width: 32vh;
+    height: 15vh;
+    border: 2px rgb(21, 21, 21) solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 0.6vh;
+}
+
+#displayBar {
+    position: absolute;
+    background-color: lightsteelblue;
+    height: 2.8vh;
+    width: 96%;
+    border-radius: 10px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    top: 0.2vh;
+}
+
+#pokemonInput,#startButton{
+    position: absolute;
+    background-color: rgb(145, 199, 65);
+    width: 50%;
+    height: 7.5vh;
+    border: 0.5px black solid;
+    text-align: center;
+    font-size: 2.0vh;
+    bottom: 0.8vh;
+    border-radius: 3px;
+}
+
+#controller{
+    position: relative;
+    height: 7vh;
+    right: 12.6vh;
+    top: 5vh;
+}
+#redButton{
+    position: relative;
+    background: radial-gradient(circle,rgb(118, 2, 2) 20%, #640000 80%);
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 50px;
+    left: 12vh;
+    bottom: 2.5vh;
+}
+#greenButton{
+    position: relative;
+    background:radial-gradient(circle, #417f04 20%, #006400 80%);
+    width: 3.5vh;
+    height: 3.5vh;
+    border-radius: 50px;
+    left: 14vh;
+    bottom: 1vh;
+}
+#gens{
+    font-size: 1.8vh;
+}

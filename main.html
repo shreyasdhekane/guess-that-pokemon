@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Guess that Pokémon</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="resource\image\Pokeball-PNG-Images.png">
+
+    </head>
+    <body>
+        <h1 id="mainTitle">Guess that Pokémon</h1>
+        <div id="pokedex">
+            <div id="topDesign">
+                <div id="blueCircle"><span id="scoreDisplay" style="display: none;">0</span></div>
+                <img src="resource/image/Pokeball-PNG-Images.png" id="pokeball" alt="pokeball">
+                <img src="resource/image/line.png" id="line">
+            </div>
+            <div id="display">
+                <div><span id="lives">5</span>
+                    <img src="resource/image/alive.png" id="heart" alt="health Status">
+                </div>
+                <div id="buttonContainer">
+                    <button onclick="guessPokemon()" id="guessButton">Guess</button>
+                    <button onclick="getPokemon()" id="nextPokemon" >Next</button>
+                </div>
+                <button onclick="tryAgain()" id="tryAgain" style="display: none;">Try Again!</button>
+                <img id="pokemonImage" src="" alt="Hidden Pokémon"  >
+                <img id="gameOver" src="resource/image/GAMEoVER.png" style="display: none;">
+                <img src="resource/image/gameStart.png" id="gameStart" alt="gameStart">
+            </div>
+            <div id="command-center">
+                <div id="displayBar">
+                    <p id="resultMessage" style="display: none;"></p>
+                </div>
+                <input type="text" id="pokemonInput" placeholder="Guesss" autofocus autocomplete="off"> 
+                <img src="resource/image/controller.png" id="controller" alt="controll button"> 
+                <div id="redButton"></div> 
+                <div id="greenButton"></div>
+                <button onclick="startGame()" id="startButton">Click Here to Start!!</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
