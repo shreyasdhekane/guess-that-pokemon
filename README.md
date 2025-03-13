@@ -1,5 +1,7 @@
 🎮 Guess That Pokémon!
 
+To view directly on browser click -> https://shreyasdhekane.github.io/guess-that-pokemon/
+
 A fun, interactive web app where you try to identify Pokémon from their silhouettes. Built with HTML, CSS, and JavaScript, this project brings a nostalgic twist to your browser.
 
 🌟 Features
